@@ -4,21 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": {
-      "name": "nodejs-demo-app",
-      "version": "1.0.0",
-      "description": "",
-      "main": "server.js",
-      "scripts": {
-        "test": "mocha"
-      },
-      "devDependencies": {
-        "mocha": "^9.0.0",
-        "chai": "^4.0.0"
-      },
-      ...
-    }
-    
+    "test": "echo \"No tests defined\""
   },
   "repository": {
     "type": "git",
