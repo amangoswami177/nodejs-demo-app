@@ -40,10 +40,10 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build Docker image
-        run: docker build -t your-dockerhub-username/nodejs-demo-app:latest .
+        run: docker build -t ramgoswami3/nodejs-demo-app:latest .
 
       - name: Push Docker image to DockerHub
-        run: docker push your-dockerhub-username/nodejs-demo-app:latest
+        run: docker push ramgoswami3/nodejs-demo-app:latest
 
       - name: Deployment (Optional)
         run: |
